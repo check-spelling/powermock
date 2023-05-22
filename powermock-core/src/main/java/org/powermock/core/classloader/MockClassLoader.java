@@ -71,7 +71,7 @@ public abstract class MockClassLoader extends DeferSupportingClassLoader {
      * following parameters:
      *
      * @param classesToMock   The classes that must be modified to prepare for testability.
-     * @param packagesToDefer Classes in these packages will be defered to the system
+     * @param packagesToDefer Classes in these packages will be deferred to the system
      *                        class-loader.
      */
     protected MockClassLoader(String[] classesToMock, String[] packagesToDefer) {
