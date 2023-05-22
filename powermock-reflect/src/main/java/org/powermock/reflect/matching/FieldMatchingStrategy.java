@@ -30,7 +30,7 @@ public enum FieldMatchingStrategy {
 	 * context may contain additional fields not present in the target. Only
 	 * fields that may be copied from the context to the target are taken into
 	 * consideration. An exception will not be thrown if a field exists in the
-	 * context but is non-existent in the target.
+	 * context but is nonexistent in the target.
 	 */
 	MATCHING
 }
