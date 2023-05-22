@@ -40,7 +40,7 @@ public class ObjenesisDeepClonerTest {
     public void onlyRunTestsOnNonJava8Environment() throws Exception {
         final String property = System.getProperty("java.specification.version");
         final float maximumVersion = 1.6f;
-        assumeTrue("Current JDK version  " + property + " expected is more than than " + maximumVersion, Float.valueOf(property) <= maximumVersion);
+        assumeTrue("Current JDK version  " + property + " expected is more than " + maximumVersion, Float.valueOf(property) <= maximumVersion);
     }
     
     @Test
