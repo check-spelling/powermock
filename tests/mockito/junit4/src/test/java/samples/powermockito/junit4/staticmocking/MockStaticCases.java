@@ -46,7 +46,7 @@ import static org.powermock.api.mockito.PowerMockito.verifyStatic;
 public class MockStaticCases {
     
     @Test
-    public void should_call_reall_static_void_method() {
+    public void should_call_real_static_void_method() {
         mockStatic(StaticService.class);
         
         StaticService.throwException();
