@@ -676,7 +676,7 @@ public class Whitebox {
 	 *            The class in which the anonymous inner class is declared.
 	 * @param occurrence
 	 *            The occurrence of the anonymous inner class. For example if
-	 *            you have two anonymous inner classes classes in the
+	 *            you have two anonymous inner classes in the
 	 *            {@code declaringClass} you must pass in {@code 1} if
 	 *            you want to get the type for the first one or {@code 2}
 	 *            if you want the second one.
