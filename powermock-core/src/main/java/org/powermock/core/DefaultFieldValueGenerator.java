@@ -100,7 +100,7 @@ public class DefaultFieldValueGenerator {
            * it's the same instance! So in cases where classes containing an
            * InetAddress field and uses it in the equals method (such as
            * java.net.URL) then may return false since InetAddress#equals()
-           * returns false all the time. As a work-around we return an
+           * returns false all the time. As a workaround we return an
            * Inet4Address instead which has a proper equals method.
            */
         if (fieldType == InetAddress.class) {
