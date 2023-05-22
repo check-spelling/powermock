@@ -56,7 +56,7 @@ public class PowerMockJUnit4LegacyTestMethodRunner extends TestMethodRunner {
 					new Object[0]);
 			long timeout = testIntrospector.getTimeout(method);
 
-			// Execute the the setUp method if needed
+			// Execute the setUp method if needed
 			executeMethodInTestInstance("setUp");
 			if (timeout > 0) {
 				// The runWithTimeout method is private in the super class,

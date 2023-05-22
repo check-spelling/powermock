@@ -131,7 +131,7 @@ Change log 1.5.6 (2014-09-04)
 * Improved java agent automatic bootstrap mechanism to work better for newer JDK's.
 * PowerMock now finds default methods in Java 8 (issue 513).
 * Annotations such as @Mock and @InjectMocks can now be used with the JUnit Java Agent.
-* Proxy framework is loaded from the the JUnit Java Agent which means that all Whitebox methods work as expected.
+* Proxy framework is loaded from the JUnit Java Agent which means that all Whitebox methods work as expected.
 
 Change log 1.5.5 (2014-05-28)
 -----------------------------
@@ -434,7 +434,7 @@ Change log 1.3 (released 2009-10-06)
 * PowerMockito now supports, doAnswer, doThrow, doCallRealMethod, doNothing and doReturn for void methods defined in final classes, final void methods and static methods. Note that if a method is a private void method you should still use PowerMockito#when.
 * Removed the deprecated classes "org.powermock.PowerMock" and "org.powermock.Whitebox".
 * PowerMock support API now has a DeepCloner class that you can use to create a clone of an object. This clone can also be cloned to a different classloader.
-* Added a PowerMock classloading project which can be used to execute any Runnable or Callable in a different classloader. The result of a callable operation will be cloned to the the callers classloader.
+* Added a PowerMock classloading project which can be used to execute any Runnable or Callable in a different classloader. The result of a callable operation will be cloned to the callers classloader.
 * Mocking static methods in final system classes works in the Mockito extension API.
 * AnnotationEnablers only injects to fields that haven't previously been set (i.e. if the field is null).
 * Added org.powermock.core.spi.listener.AnnotationEnablerListener interface that all AnnotationEnablers must implement.
