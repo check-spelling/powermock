@@ -10,7 +10,7 @@ import static org.assertj.core.api.Java6Assertions.assertThat;
 import static org.powermock.api.mockito.PowerMockito.method;
 import static org.powermock.api.mockito.PowerMockito.suppress;
 
-public class Github512Test {
+public class GitHub512Test {
 
     @Rule
     public PowerMockRule rule = new PowerMockRule();

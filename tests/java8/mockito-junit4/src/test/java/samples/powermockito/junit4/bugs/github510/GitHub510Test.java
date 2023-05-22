@@ -17,7 +17,7 @@ import static org.powermock.api.mockito.PowerMockito.whenNew;
  */
 @RunWith(PowerMockRunner.class)
 @PrepareForTest({InterfaceWithStatic.class, ConstructorObject.class})
-public class Github510Test {
+public class GitHub510Test {
 
     public ClassUsesInterface classUsesInterface;
 

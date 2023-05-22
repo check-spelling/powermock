@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(OuterClass.class)
-public class Github958Test {
+public class GitHub958Test {
   @Test
   public void test() {
     assertEquals("inner", OuterClass.theInstance.name);

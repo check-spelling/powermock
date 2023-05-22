@@ -12,7 +12,7 @@ import static org.powermock.api.mockito.PowerMockito.method;
 import static org.powermock.api.mockito.PowerMockito.suppress;
 
 @PowerMockIgnore("org.assertj.*")
-public class Github512Test {
+public class GitHub512Test {
 
     @Rule
     public PowerMockRule rule = new PowerMockRule();

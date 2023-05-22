@@ -6,6 +6,6 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({TwoMockFieldsWithDifferentTypesClass.class, TwoMockFieldsWithSameTypeCase.class})
-public class Github668Test {
+public class GitHub668Test {
 
 }
