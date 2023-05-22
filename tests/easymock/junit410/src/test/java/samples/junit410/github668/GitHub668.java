@@ -18,7 +18,7 @@ import static org.powermock.api.easymock.PowerMock.replayAll;
  */
 @RunWith(PowerMockRunner.class)
 @PowerMockListener(AnnotationEnabler.class)
-public class Github668 {
+public class GitHub668 {
 
     @Mock
     private IncidentPropertyChangeDAO incidentPropertyChangeDAO;

@@ -14,7 +14,7 @@ Change log 1.7.0
 * Added supporting org.mockito.internal.creation.bytebuddy.InlineByteBuddyMockMaker via PowerMock configuration (issues #793, #774)
 * Optimizations in powermock-reflect (thanks to Roman Leventov @leventov for pull request) (#724)
 * Migrated from Maven to Gradle (#728)
-* Implement #793 PowerMockMaker for Mockito 2: A new version of PowerMockMaker implemented. It does not conflict with Mockito MockMaker any more. Fix for #701 partially does not work any more, because ByteBuddy implementation of MockMaker always intercept calls to equals and return `true` only in case if passed object is the same instance of mocked object.
+* Implement #793 PowerMockMaker for Mockito 2: A new version of PowerMockMaker implemented. It does not conflict with Mockito MockMaker anymore. Fix for #701 partially does not work anymore, because ByteBuddy implementation of MockMaker always intercept calls to equals and return `true` only in case if passed object is the same instance of mocked object.
 * Fixed issue #722 IllegalArgumentException is output to standard error (thanks to Kotaro Nanri @k-nanri for pull request)
 * Fixed issue #717 Regression: MethodNotFoundException
 * Fixed issue #731 No methods matching the name(s) get were found in the class hierarchy for interfaces

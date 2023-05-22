@@ -47,7 +47,7 @@ public class PowerMockMakerTestCase {
     
         final String javaVersion = System.getProperty("java.version");
         
-        assumeFalse("Test failed on JDK9. System class loader does not extends URLClassloader any more.", javaVersion.startsWith("9"));
+        assumeFalse("Test failed on JDK9. System class loader does not extends URLClassloader anymore.", javaVersion.startsWith("9"));
     
         ClassLoader currentCL = Thread.currentThread().getContextClassLoader();
     
